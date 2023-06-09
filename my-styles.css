@@ -46,67 +46,6 @@ header{
     color: #4b4b4b;
 }
 
-.mainmenubtn img{
-    width: auto;
-    height: 30px;
-}
-.mainmenubtn {
-
-    margin: 0;
-    width: 140px;
-    background-color: rgba(204, 193, 2, 0);
-    color: black;
-    border:3px solid rgba(154, 150, 150, 0.35);
-    border-radius: 40px;
-    cursor: pointer;
-}
-
-.mainmenubtn:hover {
-    background-color: rgba(203, 198, 198, 0.3);
-}
-.dropdown {
-    height: auto;
-
-    display: inline-block;
-}
-.dropdown-child {
-    position: absolute;
-    display: none;
-    background-color: white;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-}
-.dropdown-child a {
-    color: black;
-    padding: 20px;
-    text-decoration: none;
-    display: block;
-
-}
-.dropdown:hover .dropdown-child {
-    display: block;
-}
-
-input{
-    font-size: 18px;
-    margin: 5px;
-
-}
-.input-div2{
- display: flex;
-    justify-content: center;
-}
-.input-button{
-    padding: 8px;
-    background-color: rgba(204, 193, 2, 0);
-    color: black;
-    border:3px solid rgba(154, 150, 150, 0.35);
-    border-radius: 7px;
-    cursor: pointer;
-    font-size: 14px;
-    margin: 5px;
-
-}
 
 
 
@@ -146,7 +85,7 @@ main{
 
 }
 
-.block1-url{
+.block1-url1{
     height: 190px;
     width: 3%;
     display: flex;
@@ -154,13 +93,25 @@ main{
     justify-content: space-between;
     margin-left: 20px;
 }
-.block1-url img{
+.url1 img{
+    width: 100%;
+    height:auto;
+}
+.block1-url div {
     scale: 1;
     height: 100%;
     width: auto;
     transition: all 0.5s;
 }
-.block1-url:hover img{
+.url1:hover  {
+    scale: 1.2;
+    transition: all 0.5s;
+}
+.url2:hover  {
+    scale: 1.2;
+    transition: all 0.5s;
+}
+.url3:hover  {
     scale: 1.2;
     transition: all 0.5s;
 }
@@ -263,5 +214,66 @@ p{
 }
 
 
+/*footer*/
+.sub_block.new_dex {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    height: 631px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub_block.new_dex .form_sub {
+
+    width: 670px;
+    height: 327px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub_block.new_dex .form_sub .title {
+    text-align: center;
+    font-size: 16px;
+
+    line-height: 1.875;
+}
+.sub_block.new_dex .form_sub .inputs {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.sub_block.new_dex .form_sub .inputs input {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 247, 244);
+    border-radius: 22px;
+    background-color: rgba(0, 0, 0, 0.2);
+    left: 454px;
+    top: 4158px;
+    width: 251px;
+    height: 30px;
+    outline: none;
+
+    padding: 10px;
+}
+.sub_block.new_dex .form_sub button {
+    border-radius: 22px;
+    background-color: rgb(128, 183, 179);
+    box-shadow: 0px 6px 40px 0px rgba(128, 183, 179, 0.54);
+    margin-top: 20px;
+    width: 232px;
+    height: 44px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
 
 

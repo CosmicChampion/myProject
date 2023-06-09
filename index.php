@@ -29,25 +29,12 @@
             <a href="#">ПРО НАС</a>
         </div>
     </div>
-    <div class="account">
-        <div class="dropdown">
-            <button class="mainmenubtn"><img src="img/user.png"></button>
-            <div class="dropdown-child">
-                <div class="input-div">
-                    <p>
-                        <input type="text" id="input" placeholder="Email">
-                    </p>
-                    <p>
-                        <input type="text" id="input" placeholder="Password">
-                    </p>
-                </div>
-                <div class="input-div2">
-                    <button class="input-button">Увійти</button>
-                </div>
 
-            </div>
-        </div>
+    <div class="header-main-button">
+            <a href="login.php">Вхід</a>
+            <a href="#">Реєстрація</a>
     </div>
+
 
 </header>
 <main>
@@ -66,11 +53,7 @@
 
         </div>
 
-        <div class="block1-url">
-            <div><a href="#" ><img src="img/inst.png"></a></div>
-            <div><a href="#" ><img src="img/twit.png"></a></div>
-            <div><a href="#" ><img src="img/faceb.png"></a></div>
-        </div>
+
     </div>
 
     <div class="block2">
@@ -161,5 +144,23 @@
     </div>
 
 </main>
+<footer>
+    <section class="sub_block new_dex">
+        <form id="subscription_form" class="form_sub">
+            <p class="title">Like what you're reading? Get weekly updates that will help
+                <br> you grow as a designer.</p>
+            <div class="inputs">
+                <input type="text" name="name" required placeholder="Name">
+                <input type="email" name="email" required placeholder="email">
+            </div>
+            <button type="submit">Підписатися</button>
+        </form>
+    </section>
+</footer>
+<script
+        src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+        crossorigin="anonymous"></script>
+<script src="main.js"></script>
 </body>
 </html>
